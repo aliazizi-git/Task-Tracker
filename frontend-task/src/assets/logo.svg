@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 50" fill="none">
+  <!-- Gradient Definitions -->
+  <defs>
+    <linearGradient id="taskGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#4F46E5" />
+      <stop offset="50%" stop-color="#6366F1" />
+      <stop offset="100%" stop-color="#8B5CF6" />
+    </linearGradient>
+  </defs>
+
+  <!-- Logo Mark (Modern Task Clipboard / Check) -->
+  <g transform="translate(6, 5)">
+    <!-- Base Card/Box -->
+    <rect x="2" y="2" width="36" height="36" rx="10" stroke="url(#taskGrad)" stroke-width="3" fill="#0F172A" />
+    
+    <!-- Animated Checkmark Shape -->
+    <path d="M12 20 L18 26 L28 14" stroke="url(#taskGrad)" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round" />
+    
+    <!-- Accent Dot -->
+    <circle cx="28" cy="14" r="2.5" fill="#38BDF8" />
+  </g>
+
+  <!-- Typography -->
+  <text x="56" y="32" font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="22" font-weight="800" fill="#FFFFFF" letter-spacing="0.5">
+    Task<tspan fill="url(#taskGrad)">Tracker</tspan>
+  </text>
+</svg>
